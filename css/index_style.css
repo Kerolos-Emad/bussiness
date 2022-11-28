@@ -1,0 +1,261 @@
+
+body{
+    
+    color: #444444;
+    line-height: 1.6;
+    font-family: 'Poppins', Helvetica, arial, sans-serif, 'Montserrat', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: darkred;
+}
+
+.home1{
+    background-image: url(/img/cover2.jpg);    
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+}
+    
+.navicon{
+    background-color:  #ec3237;
+    color: #fff;
+    font-size: 35px;
+}
+
+.layer{
+    position: absolute;
+
+    background-color: rgba(232, 66, 66, 0.656);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.home-info{ 
+    
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    padding: 25 10 ;
+}
+.home-info a{ 
+    text-shadow: none;
+    color: #fff;
+    text-align: center;
+    border: 2px solid white;
+    transition: all 1s;
+
+}
+.home-info a:hover {
+    color: #ec3237;
+    background-color: #fff;
+}
+.carolin-info h1{
+    font-weight: 700;
+}
+.carolin-info p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+
+.carolin-info .icons{
+    
+    font-weight: 500;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 1.4em;
+    color: #777;
+    margin-right: 10px;
+    
+    
+}
+.carolin-info.icons li i{
+    font-weight: 500;   
+    border: 1px solid #999999;
+}
+
+
+
+.carolin-skills {
+    margin-top: 150px;
+    color: inherit;
+    font-family: inherit;
+}
+.progress-skills{
+    color: #444444;
+    margin-top: 150px;
+    
+}
+.home2{
+    width: 100%;
+    
+    background-color: #f5f5f5;
+}
+.sec-1
+{
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+}
+.sec-1-icon
+{
+    width: 45px;
+    height: 40px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #777777;
+    text-align: center;
+    transition: all 1s;
+}
+
+.sec-1-icon:hover
+{
+    color: #f61119;
+    background-color: #af2424 ;
+    
+}
+.sec-2-btn ,.my-services-btn{
+    background: #ec3237;
+    color: #fff;
+    font-size: 16px;
+    margin: 20px 0 ;
+    transition: all 1s;
+}
+.sec-2-btn a , .my-services-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.sec-2-btn:hover{
+    background-color: darkred;
+}
+
+.home3{
+    width: 100%;
+    height: 75%;
+    background-image: url(../img/project-counter.jpg);
+    
+}
+.counter-info{
+    position: absolute;
+    width:90%;
+    top: 150;
+    left: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.counter-icon
+{   
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: #ec3237;
+    text-align: center;
+}
+.counter-num{
+    text-align: center;
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+.counter-title{
+   color:#ec3237;
+}
+.portfolio-filter{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.portfolio-filter .active a{
+    background-color: #ec3237;
+    color: #ffffff !important;
+    border: 2px solid #ec3237;
+}
+.portfolio-filter li a {
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    color: #444444;
+    border: 2px solid #dddddd;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 1s;
+}
+.portfolio-filter li a:hover{
+   border: 2px solid #ec3237;
+    color:  #ec3237;
+}
+.portfolio-info{
+    background-color: #fff;
+    width: 350px;
+    top: 0;
+    left:0;
+    transition: all 1s;
+}
+.portfolio-info i:hover{
+    color: #ec3237;
+}
+.hire{
+    height: 600px;
+}
+.contact ul{
+list-style: none;}
+
+.hire .icon{
+    padding: 5px 15px;;
+    font-size: 1.4em;
+    border: 1px solid #999;
+    color: #777;
+    margin-right: 10px;
+}
+.hire .icon:hover{
+    background-color: red;
+    color: white;
+}
+.button2{
+    border: none;
+    padding: 10 25;
+    background-color: #ec3237;
+    color: white;
+    text-align: center;
+    
+}
+.button2:hover{
+        background-color: #c62d32;
+    
+}
+.form-control{
+    
+    border: solid 2px rgb(204, 204, 204);
+    padding: 20px 15px;
+    
+}
+.txt{
+    max-width: 100%;
+        height: 300px;
+}
+.cover-photo{
+    background-image: url(../img/work/client-testimonial.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.carousel-item img{
+    border-radius: 50%;   
+}
+.cover-photo h4{
+    color: #ec3237;
+}
